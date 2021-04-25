@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<grammar xml:lang="en" root="move"
+         tag-format="semantics/1.0" version="1.0"
+         xmlns="http://www.w3.org/2001/06/grammar">
+
+    <rule id="move">
+        <one-of>
+            <item>
+                <ruleref uri="#spanish"/>
+            </item>
+            <item>
+                <ruleref uri="#french"/>
+            </item>
+            <item>
+                <ruleref uri="#boat"/>
+            </item>
+            <item>
+                <ruleref uri="#bus"/>
+            </item>
+            <item>
+                <ruleref uri="#motorbike"/>
+            </item>
+            <item>
+                <ruleref uri="#plane"/>
+            </item>
+            <item>
+                <ruleref uri="#walking"/>
+            </item>
+            <item>
+                <ruleref uri="#hello"/>
+            </item>
+            <item>
+                <ruleref uri="#girl"/>
+            </item>
+            <item>
+                <ruleref uri="#boy"/>
+            </item>
+            <item>
+                <ruleref uri="#rugby"/>
+            </item>
+            <item>
+                <ruleref uri="#start"/>
+            </item>
+            <item>
+                <ruleref uri="#quit"/>
+            </item>
+            <item>
+                <ruleref uri="#stage"/>
+            </item>
+            <item>
+                <ruleref uri="#level1"/>
+            </item>
+            <item>
+                <ruleref uri="#enter"/>
+            </item>
+            <item>
+                <ruleref uri="#level2"/>
+            </item>
+            <item>
+                <ruleref uri="#level3"/>
+            </item>
+            <item>
+                <ruleref uri="#mainmenu"/>
+            </item>
+            <item>
+                <ruleref uri="#restart"/>
+            </item>
+            <item>
+                <ruleref uri="#level"/>
+            </item>
+            <item>
+                <ruleref uri="#baton"/>
+            </item>
+            <item>
+                <ruleref uri="#bate"/>
+            </item>
+            <item>
+                <ruleref uri="#automatic"/>
+            </item>
+            <item>
+                <ruleref uri="#automobile"/>
+            </item>
+            <item>
+                <ruleref uri="#motor"/>
+            </item>
+            <item>
+                <ruleref uri="#motion"/>
+            </item>
+            <item>
+                <ruleref uri="#cream"/>
+            </item>
+            <item>
+                <ruleref uri="#skateboard"/>
+            </item>
+            <item>
+                <ruleref uri="#bail"/>
+            </item>
+            <item>
+                <ruleref uri="#chick"/>
+            </item>
+            <item>
+                <ruleref uri="#check"/>
+            </item>
+            <item>
+                <ruleref uri="#hole"/>
+            </item>
+            <item>
+                <ruleref uri="#cola"/>
+            </item>
+            <item>
+                <ruleref uri="#rug"/>
+            </item>
+            <item>
+                <ruleref uri="#buy"/>
+            </item>
+            <item>
+                <ruleref uri="#one"/>
+            </item>
+            <item>
+                <ruleref uri="#two"/>
+            </item>
+            <item>
+                <ruleref uri="#play"/>
+            </item>
+        </one-of>
+    </rule>
+
+    <rule id="spanish">
+        <tag>out.action = "spanish";</tag>
+        <one-of>
+            <item>spanish</item>
+            <item>enter spanish</item>
+            <item>i want to go to spanish</item>
+        </one-of>
+    </rule>
+
+    <rule id="french">
+        <tag>out.action = "french";</tag>
+        <one-of>
+            <item>french</item>
+            <item>enter french</item>
+            <item>i want to go to french</item>
+        </one-of>
+    </rule>
+    
+    <rule id="stage">
+        <tag>out.action = "stage";</tag>
+        <one-of>
+            <item>stage</item>
+            <item>enter stage</item>
+            <item>i want to stage</item>
+        </one-of>
+    </rule>
+    
+    <rule id="play">
+        <tag>out.action = "play";</tag>
+        <one-of>
+            <item>play</item>
+            <item>play again</item>
+            <item>enter play</item>
+            <item>i want to play again</item>
+        </one-of>
+    </rule>
+    
+    <rule id="one">
+        <tag>out.action = "one";</tag>
+        <one-of>
+            <item>one</item>
+            <item>enter one</item>
+            <item>i want to go to one</item>
+        </one-of>
+    </rule>
+
+    <rule id="two">
+        <tag>out.action = "two";</tag>
+        <one-of>
+            <item>two</item>
+            <item>enter two</item>
+            <item>i want to go to two</item>
+        </one-of>
+    </rule>
+    
+    <rule id="baton">
+        <tag>out.action = "baton";</tag>
+        <one-of>
+            <item>baton</item>
+            <item>enter baton</item>
+            <item>i want to go to baton</item>
+        </one-of>
+    </rule>
+
+    <rule id="bate">
+        <tag>out.action = "bate";</tag>
+        <one-of>
+            <item>bate</item>
+            <item>bait</item>
+            <item>enter bate</item>
+            <item>i want to go to bate</item>
+        </one-of>
+    </rule>
+
+    <rule id="enter">
+        <tag>out.action = "enter";</tag>
+        <one-of>
+            <item>enter</item>
+            <item>i want to enter</item>
+        </one-of>
+    </rule>
+
+    <rule id="automatic">
+        <tag>out.action = "automatic";</tag>
+        <one-of>
+            <item>automatic</item>
+            <item>enter automatic</item>
+            <item>i want to go to automatic</item>
+        </one-of>
+    </rule>
+
+    <rule id="automobile">
+        <tag>out.action = "automobile";</tag>
+        <one-of>
+            <item>automobile</item>
+            <item>enter automobile</item>
+            <item>i want to go to automobile</item>
+        </one-of>
+    </rule>
+
+    <rule id="motor">
+        <tag>out.action = "motor";</tag>
+        <one-of>
+            <item>motor</item>
+            <item>enter motor</item>
+            <item>i want to go to motor</item>
+        </one-of>
+    </rule>
+
+    <rule id="motion">
+        <tag>out.action = "motion";</tag>
+        <one-of>
+            <item>motion</item>
+            <item>enter motion</item>
+            <item>i want to go to motion</item>
+        </one-of>
+    </rule>
+
+    <rule id="cream">
+        <tag>out.action = "cream";</tag>
+        <one-of>
+            <item>cream</item>
+            <item>enter cream</item>
+            <item>i want to go to cream</item>
+        </one-of>
+    </rule>
+
+    <rule id="skateboard">
+        <tag>out.action = "skateboard";</tag>
+        <one-of>
+            <item>skateboard</item>
+            <item>enter skateboard</item>
+            <item>i want to go to skateboard</item>
+        </one-of>
+    </rule>
+    
+    <rule id="bail">
+        <tag>out.action = "bail";</tag>
+        <one-of>
+            <item>bail</item>
+            <item>enter bail</item>
+            <item>i want to go to bail</item>
+        </one-of>
+    </rule>
+
+    <rule id="chick">
+        <tag>out.action = "chick";</tag>
+        <one-of>
+            <item>chick</item>
+            <item>enter chick</item>
+            <item>i want to go to chick</item>
+        </one-of>
+    </rule>
+
+    <rule id="check">
+        <tag>out.action = "check";</tag>
+        <one-of>
+            <item>check</item>
+            <item>enter check</item>
+            <item>i want to go to check</item>
+        </one-of>
+    </rule>
+
+    <rule id="hole">
+        <tag>out.action = "hole";</tag>
+        <one-of>
+            <item>hole</item>
+            <item>enter hole</item>
+            <item>i want to go to hole</item>
+        </one-of>
+    </rule>
+
+    <rule id="cola">
+        <tag>out.action = "cola";</tag>
+        <one-of>
+            <item>cola</item>
+            <item>enter cola</item>
+            <item>i want to go to cola</item>
+        </one-of>
+    </rule>
+
+    <rule id="rug">
+        <tag>out.action = "rug";</tag>
+        <one-of>
+            <item>rug</item>
+            <item>enter rug</item>
+            <item>i want to go to rug</item>
+        </one-of>
+    </rule>
+
+    <rule id="buy">
+        <tag>out.action = "buy";</tag>
+        <one-of>
+            <item>buy</item>
+            <item>enter buy</item>
+            <item>i want to go to buy</item>
+        </one-of>
+    </rule>
+    
+    <rule id="boat">
+        <tag>out.action = "boat";</tag>
+        <one-of>
+            <item>boat</item>
+            <item>enter boat</item>
+            <item>i want to go to boat</item>
+        </one-of>
+    </rule>
+
+    <rule id="bus">
+        <tag>out.action = "bus";</tag>
+        <one-of>
+            <item>bus</item>
+            <item>enter bus</item>
+            <item>i want to go to bus</item>
+        </one-of>
+    </rule>
+
+    <rule id="motorbike">
+        <tag>out.action = "motorbike";</tag>
+        <one-of>
+            <item>motorbike</item>
+            <item>enter motorbike</item>
+            <item>i want to go to motorbike</item>
+        </one-of>
+    </rule>
+
+    <rule id="plane">
+        <tag>out.action = "plane";</tag>
+        <one-of>
+            <item>plane</item>
+            <item>enter plane</item>
+            <item>i want to go to plane</item>
+        </one-of>
+    </rule>
+
+    <rule id="walking">
+        <tag>out.action = "walking";</tag>
+        <one-of>
+            <item>walking</item>
+            <item>enter walking</item>
+            <item>i want to go to walking</item>
+        </one-of>
+    </rule>
+    
+    <rule id="hello">
+        <tag>out.action = "hello";</tag>
+        <one-of>
+            <item>hello</item>
+            <item>enter hello</item>
+            <item>i want to go to hello</item>
+        </one-of>
+    </rule>
+
+    <rule id="girl">
+        <tag>out.action = "girl";</tag>
+        <one-of>
+            <item>girl</item>
+            <item>enter girl</item>
+            <item>i want to go to girl</item>
+        </one-of>
+    </rule>
+
+    <rule id="boy">
+        <tag>out.action = "boy";</tag>
+        <one-of>
+            <item>boy</item>
+            <item>enter boy</item>
+            <item>i want to go to boy</item>
+        </one-of>
+    </rule>
+
+    <rule id="rugby">
+        <tag>out.action = "rugby";</tag>
+        <one-of>
+            <item>enter rugby</item>
+        </one-of>
+    </rule>
+
+    <rule id="start">
+        <tag>out.action = "start game";</tag>
+        <one-of>
+            <item>start game</item>
+            <item>start</item>
+            <item>enter start game</item>
+        </one-of>
+    </rule>
+    
+
+    <rule id="quit">
+        <tag>out.action = "quit";</tag>
+        <one-of>
+            <item>quit</item>
+            <item>enter quit</item>
+        </one-of>
+    </rule>
+
+    <rule id="level1">
+        <tag>out.action = "level1";</tag>
+        <one-of>
+            <item>level one</item>
+            <item>easy</item>
+            <item>enter level one</item>
+            <item>enter easy</item>
+        </one-of>
+    </rule>
+
+    <rule id="level2">
+        <tag>out.action = "level2";</tag>
+        <one-of>
+            <item>level two</item>
+            <item>moderate</item>
+            <item>enter moderate</item>
+            <item>enter level two</item>
+        </one-of>
+    </rule>
+
+    <rule id="level3">
+        <tag>out.action = "level3";</tag>
+        <one-of>
+            <item>level three</item>
+            <item>enter level three</item>
+            <item>enter hard</item>
+            <item>hard</item>
+        </one-of>
+    </rule>
+
+    <rule id="mainmenu">
+        <tag>out.action = "mainmenu";</tag>
+        <one-of>
+            <item>main menu</item>
+            <item>menu</item>
+            <item>enter main menu</item>
+            <item>main</item>
+        </one-of>
+    </rule>
+    
+    <rule id="restart">
+        <tag>out.action = "restart";</tag>
+        <one-of>
+            <item>restart</item>
+            <item>restart game</item>
+            <item>enter restart menu</item>
+        </one-of>
+    </rule>
+    
+
+    <rule id="level">
+        <tag>out.action = "level";</tag>
+        <one-of>
+            <item>level</item>
+            <item>enter level</item>
+        </one-of>
+    </rule>
+
+</grammar>
